@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="simple-page">
+
+    <div class="simple-card">
+
+        <div class="small-icon">🔐</div>
+
+        <h1>One Little Secret</h1>
+
+        <p>Enter the secret PIN</p>
+
+        <input
+            type="password"
+            id="pinInput"
+            maxlength="4"
+            placeholder="••••"
+        >
+
+        <button onclick="checkPin()">
+            Unlock
+        </button>
+
+        <p id="error"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

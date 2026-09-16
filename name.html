@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Little Surprise</title>
+    <title>Your Name</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,17 +11,23 @@
 
     <div class="simple-card">
 
-        <div class="small-icon">✨</div>
+        <div class="small-icon">💗</div>
 
-        <h1>A Little Surprise</h1>
+        <h1>Before We Begin...</h1>
 
-        <p>
-            Something special is waiting for you...
-        </p>
+        <p>Tell me your name</p>
 
-        <button onclick="goToPin()">
+        <input
+            type="text"
+            id="username"
+            placeholder="Enter your name"
+        >
+
+        <button onclick="checkName()">
             Continue
         </button>
+
+        <p id="message"></p>
 
     </div>
 
